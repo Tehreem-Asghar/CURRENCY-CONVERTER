@@ -1,0 +1,24 @@
+{
+  "name": "@t_ehreem/currency-converter",
+  "version": "1.0.1",
+  "description": "creat a currency converter projrct  using TypeScript, node.js and inquirer",
+  "main": "currency_converter.js",
+  "type": "module",
+  "bin": "currency_converter.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tehreem",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7"
+  }
+}
